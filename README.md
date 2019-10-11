@@ -1,4 +1,4 @@
-1. SCATTER PLOT:
+PART1. SCATTER PLOT:
 
 	1.1 python file: scatter.py
 
@@ -33,7 +33,7 @@
 		   https://en.wikipedia.org/wiki/Effects_of_global_warming
 
 
-2. BAR PLOT:
+PART2. BAR PLOT:
 	
 	2.1 python file: bar.py
 
