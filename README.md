@@ -48,7 +48,6 @@
 
 	2.4 Plot: Bar_Plot.png
 
-	2.5 Plot Observations: The downloaded data file 'Apple_2019.csv' from Data Source [4] gives 
-
+	2.5 Plot Observations: The downloaded data file 'Apple_2019.csv' from Data Source [4] gives  state-wise, market-wise, and variety-wise wholesale prices of apple in INDIA for year 2019. The data shows the daily wholesale maximum price, minimum price and modal price. The modal price is considered because it accounts for most frequent value. From the data given, I have calculated the average modal price of apples per state. From the plot Bar_Plot.png, the x-axis shows the 'state' of INDIA and the y-axis shows the value of 'average modal price' in wholesale rate for a given state. The plot speaks the 'average modal price' in wholesale rate for each state except 'Goa' lies within 20000 rupees. The Chandigarh state witness the lowest 'average modal price' for apples in wholesale. States except 'Goa' has wholesale 'average modal price' in range of  2791 to 17111 rupees. Goa, Andaman and Nicobar, and Mizoram ranks first, second, and third in wholesale highest 'average modal price' of apples resectively. The plot shows an extensively very high prices for apples in Goa compared to rest states. On verification from the data set, it was observed that the modal price of apples in Goa ranges from 81000 ruppes to 148000 ruppes.
 
 
