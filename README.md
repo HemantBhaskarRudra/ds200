@@ -7,7 +7,7 @@
 	1.3 Operating Instructions: The scatter.py file accepts data_source_filename from command line arguments. 
 		So, in terminal type : 
 
-		python3 scatter.py <data_source_filenme> , ie.,
+		python3 scatter.py <data_source_filename> , ie.,
 
 		python3 scatter.py Max_Temp_IMD_2017.csv
 
@@ -42,7 +42,7 @@
 	2.3 Operating Instructions: The bar.py file accepts data_source_filename from command line arguments. 
 		So, in terminal type : 
 
-		python3 bar.py <data_source_filenme> , ie.,
+		python3 bar.py <data_source_filename> , ie.,
 
 		python3 bar.py Apple_2019.csv
 
@@ -57,6 +57,35 @@
 
 		2. Department of Agriculture, Cooperation & Farmers Welfare
 		   http://agricoop.nic.in/
+
+		3. Ministry of Agriculture & Farmers' Welfare
+		   http://agriculture.gov.in/
+
+
+3. BOX PLOT:
+	
+	2.1 python file: box.py
+
+	2.2 Data Source: https://data.gov.in/resources/variety-wise-daily-market-prices-apple-2019
+
+	2.3 Operating Instructions: The box.py file accepts data_source_filename from command line arguments. 
+		So, in terminal type : 
+
+		python3 box.py <data_source_filename>
+
+		python3 box.py Apple_2019.csv
+
+	2.4 Plot:  Box_Plot.png
+
+	2.5 Plot Observations: The downloaded data file 'Apple_2019.csv' from Data Source [1] gives state-wise, market-wise, and variety-wise wholesale prices of apple in INDIA for the year 2019. The data is contributed by the Department of Agriculture, Cooperation & Farmers Welfare [2] and the Ministry of Agriculture & Farmers' Welfare [3]. The data file used for box plotting is the same as of bar plotting. The data shows the wholesale maximum price, minimum price, and modal price. From the plot Box_Plot.png, the x-axis shows the 'state' of INDIA and the y-axis shows the value of 'modal price' in wholesale rate for a given state. The modal price is considered because it accounts for the most frequent price value. The box plot shows minimum, maximum values and Interquartile Range (IQR) along with outliers. From the plot Box_Plot.png, the shaded light pink regions denote the IQR, and the peach-colored circle denotes the outliers. The box plot shows the distribution of modal prices in the wholesale rate of apples for a given state. The distribution of modal prices is more uniform in states of Jammu and Kashmir, Jharkhand, Kerela, NCT of Delhi, and Uttarakhand with no or very few outliers. For the state of Goa and Mizoram, the modal prices of apples are usually high than their median as can be seen from the plot. More variance amongst prices can be seen in such states. Similarly, for Andaman & Nicobar and Telangana, the modal prices of apples are low than their median. High number of outliers can be seen for Haryana, Punjab, Himachal Pradesh, Madhya Pradesh, and Maharastra symbolizing higher rates than the median. The bar plot shows a much better view of the distribution of wholesale modal prices compared to the median as in Normal Distribution. 
+
+	2.5 References:
+
+		1. Variety-wise Daily Market Prices of Apple 2019
+		   https://data.gov.in/resources/variety-wise-daily-market-prices-apple-2019
+
+		2. Department of Agriculture, Cooperation & Farmers Welfare
+		   http://agricoop.nic.in/e bx 
 
 		3. Ministry of Agriculture & Farmers' Welfare
 		   http://agriculture.gov.in/
